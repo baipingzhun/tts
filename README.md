@@ -1,12 +1,12 @@
 TTS--语音合成
-（demo可以直接放到工程下打开，资源路径视情况调整)
+
 
 SpeechSynthesisUtterance和SpeechSynthesis简单介绍：
 ------------------------------------------------------------------------------
 
 SpeechSynthesisUtterance是HTML5中新增的API,用于将指定文字合成为对应的语音.也包含一些配置项,指定如何去阅读(语言,音量,音调)等
 SpeechSynthesisUtterance基本属性
-------------------------------------------------------------------------------
+
 
 SpeechSynthesisUtterance.lang 获取并设置话语的语言
 SpeechSynthesisUtterance.pitch 获取并设置话语的音调(值越大越尖锐,越低越低沉)
@@ -24,7 +24,7 @@ getVoices 获取支持的语言数组. 注意:必须添加在voiceschanged事件
 
 
 网页语音 API 的SpeechSynthesis接口是语音服务的控制接口；它可以用于获取设备上关于可用的合成声音的信息，开始、暂停语音，或除此之外的其他命令。
-------------------------------------------------------------------------------
+
 方法:
 SpeechSynthesis 也从它的父接口继承方法， EventTarget.
 SpeechSynthesis.cancel()
